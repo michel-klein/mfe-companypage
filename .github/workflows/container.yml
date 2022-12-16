@@ -1,4 +1,4 @@
-name: deploys-container
+name: deploy-container
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./container
+    working-directory: container
 
 jobs:
   build:
